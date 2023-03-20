@@ -1,0 +1,13 @@
+:root{
+
+    /* FONT-COLOR */
+
+    --font: hsl(257, 40%, 49%);
+
+    --font-details:hsl(300, 69%, 71%);
+
+
+    /* PROJECT-COLOR */
+
+    --color-project: hsl(257, 40%, 49%);
+}

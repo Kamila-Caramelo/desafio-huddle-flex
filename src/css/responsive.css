@@ -1,0 +1,61 @@
+@media (max-width: 375px){
+   
+    body{
+        display: flex;
+        background: url(../images/bg-mobile.svg) no-repeat;
+        width: 100%;
+    }
+
+    .container{
+        display: block;
+        text-align: center;
+        margin: 15px 30px;
+    }
+
+    .cotainer .header{
+        display: block;
+        text-align: left;
+    }
+
+    .container .header .logo{
+        display: flex;
+        align-self: flex-start;
+        margin-top: -20px;
+        margin-left: -30px;
+        padding: 10px;
+    }
+    
+    .container .project{
+        display: block;
+    }
+
+    .container .project img{
+        display: block;
+        align-items: center;
+        margin: 50px auto;
+
+    }
+
+    .container .project .info{
+        display: block;
+        align-items: center;
+        margin: auto;
+    }
+
+    .container .project .info h2{
+        display: block;
+        align-items: center;
+        font-size: 2rem;
+    }
+
+    .container .project .info p{
+        font-size: 1.5rem;
+    }
+
+    .container .footer .social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+      }
+}

@@ -1,0 +1,110 @@
+html{
+    font-size: 62.5%;    
+    background-color: var(--color-project);
+}
+
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background: url(../images/bg-desktop.svg) no-repeat;
+    background-size: auto;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container .header{
+    display: flex;
+    justify-content: flex-start ;
+    align-items: center;
+    margin: 30px;
+}
+
+.container .header .logo{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+.container .project{
+    display: flex;
+}
+
+.container .project img{
+    display: flex;
+    margin: 35px 75px;
+}
+
+.container .project .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 75px -25px;
+}
+
+.container .project .info h2{
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    font-size: 4rem;
+}
+
+.container .project .info p{
+    display: flex;
+    font-size: 1.8rem;
+    line-height: 25px;
+    padding: 25px;
+}
+
+.container .project button{
+    font-family: 'Poppins', sans-serif;
+    color: var(--font);
+    font-weight: 400;
+    font-size: 1.5rem;
+    background-color: #fff;
+    align-self: flex-start;
+    margin-top: 30px;
+    padding: 15px 75px;
+    border-radius: 50px;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+    margin-top: 5px;
+    transition: 0.3s;
+}
+
+.container .project button:hover{
+    background-color: var(--font-details);
+    color: #fff;
+}
+
+.footer{
+    display: flex;
+    justify-content:flex-end;
+}
+
+.footer .social{
+    display: flex;
+    font-size: 2rem;
+    padding: 15px;
+}
+
+.footer .social .fab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    border: solid 1px #fff;
+    margin: 15px 8px;
+}
+
+.footer .social .fab:hover{
+    border: solid var(--font-details);
+    color: var(--font-details);
+}
